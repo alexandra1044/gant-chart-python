@@ -30,6 +30,6 @@ df = pd.DataFrame(data)
 
 fig = px.timeline(df, x_start="Start", x_end="Finish", y="Task", color="Resource", hover_data=['Members'])
 fig.update_yaxes(autorange="reversed")
-fig.update_layout(title="UKIPC Challenge Gant Chart")
+fig.update_layout(title="CIUK Challenge Gant Chart")
 
 fig.show()
