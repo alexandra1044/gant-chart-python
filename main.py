@@ -28,9 +28,8 @@ data = [
 
 df = pd.DataFrame(data)
 
-# Create Gantt chart
 fig = px.timeline(df, x_start="Start", x_end="Finish", y="Task", color="Resource", hover_data=['Members'])
-fig.update_yaxes(autorange="reversed")  # tasks from top to bottom
+fig.update_yaxes(autorange="reversed")
 fig.update_layout(title="UKIPC Challenge Gant Chart")
 
 fig.show()
