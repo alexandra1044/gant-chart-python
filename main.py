@@ -20,6 +20,8 @@ data = [
 
     dict(Task="Code Clean-Up, Review and Accessibility Features", Start='2025-10-30', Finish='2025-10-31', Resource='UCL Challenge', Members='Femi, Sacha, Luke'),
     dict(Task="Unit Testing", Start='2025-10-18', Finish='2025-11-01', Resource='UCL Challenge', Members='Femi, Sacha, Luke'),
+    dict(Task="Setup GitHub Actions for Runnning a Build and Test", Start='2025-10-19', Finish='2025-10-24', Resource='UCL Challenge', Members='Femi, Sacha, Luke'),
+
     dict(Task="Presentation Creation and Rehersal", Start='2025-11-01', Finish='2025-11-03', Resource='UCL Challenge', Members='Femi, Sacha, Luke'),
 
 ]
